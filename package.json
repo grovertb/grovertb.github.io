@@ -2,6 +2,7 @@
   "name": "grovertb.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://grovertb.github.io",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
@@ -9,6 +10,8 @@
     "react-scripts": "1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
