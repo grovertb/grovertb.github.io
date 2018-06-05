@@ -115,7 +115,7 @@ class MiniDrawer extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography color='inherit' noWrap variant='title'>
-              Title
+              grovertb.github.io
             </Typography>
           </Toolbar>
         </AppBar>
