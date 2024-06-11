@@ -1,13 +1,9 @@
-import { Typography } from '@mui/material'
+import { Container, Typography } from '@mui/material'
 
-const AboutMe = () => {
-  console.log('AboutMe')
-
-  return (
-    <>
-      <Typography>AboutMe</Typography>
-    </>
-  )
-}
+const AboutMe = () => (
+  <Container>
+    <Typography variant='h4'>About Me</Typography>
+  </Container>
+)
 
 export default AboutMe

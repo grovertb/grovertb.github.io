@@ -1,11 +1,11 @@
 import { Container, Grid, Typography } from '@mui/material'
 import CardService from './CardService'
 
-const services = [ 'Creación Web', 'Desarrollo de aplicaciones', 'Mantenimiento y soporte' ]
+const services = [ 'Diseño de páginas Web', 'Desarrollo de aplicaciones', 'Mantenimiento y soporte' ]
 
 const MyServices = () => (
   <Container>
-    <Typography>MyServices</Typography>
+    <Typography variant='h4'>MyServices</Typography>
     <Grid container spacing={4}>
       {
         services.map((service, index) => (

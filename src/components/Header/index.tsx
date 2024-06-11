@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Toolbar, Typography } from '@mui/material'
+import { AppBar, Box, Button, Container, Toolbar, Typography } from '@mui/material'
 
 const navItems = [ 'Home', 'About', 'Contact' ]
 
@@ -24,6 +24,12 @@ const Header = () => (
         </Box>
       </Toolbar>
     </AppBar>
+    <Container>
+      <Typography variant='h4'>Hola, mi nombre es</Typography>
+      <Typography color='primary' variant='h3'>[Nombre Completo]</Typography>
+      <Typography variant='h4'>Full Stack Developer JS</Typography>
+      <Button variant='contained'>Ver CV</Button>
+    </Container>
   </>
 )
 
