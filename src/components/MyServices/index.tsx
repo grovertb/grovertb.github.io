@@ -5,7 +5,7 @@ const services = [ 'Diseño de páginas Web', 'Desarrollo de aplicaciones', 'Man
 
 const MyServices = () => (
   <Container>
-    <Typography variant='h4'>MyServices</Typography>
+    <Typography variant='h4'>My Services</Typography>
     <Grid container spacing={4}>
       {
         services.map((service, index) => (
